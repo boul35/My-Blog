@@ -1,7 +1,7 @@
 import 'css/tailwind.css'
 import 'pliny/search/algolia.css'
 import 'remark-github-blockquote-alert/alert.css'
-
+import Head from 'next/head' // Import Head from next/head
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
@@ -67,6 +67,31 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
+            <Head>
+        {/* Google Analytics Script */}
+        {siteMetadata.analytics?.googleAnalytics?.googleAnalyticsId && (
+          <>
+            <script
+              async
+              src={`https://www.googletagmanager.com/gtag/js?id=${siteMetadata.analytics.googleAnalytics.googleAnalyticsId}`}
+            />
+            <script
+              dangerouslySetInnerHTML={{
+                __html: `
+                  window.dataLayer = window.dataLayer || [];
+                  function gtag(){dataLayer.push(arguments);}
+                  gtag('js', new Date());
+                  gtag('config', '${siteMetadata.analytics.googleAnalytics.googleAnalyticsId}');
+                `,
+              }}
+            />
+          </>
+        )}
+      </Head>
+
+
+
+      
       <link
         rel="apple-touch-icon"
         sizes="76x76"
