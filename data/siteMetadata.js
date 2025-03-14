@@ -46,7 +46,7 @@ const siteMetadata = {
     //   posthogProjectApiKey: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
     // },
     googleAnalytics: {
-      googleAnalyticsId: 'GTM-W55RGQD9', // replace with your actual Google Analytics ID
+      googleAnalyticsId: 'G-0GDV0JH7VT', // replace with your actual Google Analytics ID
     },
   },
   newsletter: {
