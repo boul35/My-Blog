@@ -47,7 +47,7 @@ const siteMetadata = {
     // },
     googleAnalytics: {
       googleAnalyticsId: 'G-3S9GFH24T0', // replace with your actual Google Analytics ID
-    },
+   },
   },
   newsletter: {
     // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus, beehive
@@ -84,6 +84,7 @@ const siteMetadata = {
       lang: 'en',
     },
   },
+  
   search: {
     provider: 'kbar', // kbar or algolia
     kbarConfig: {
