@@ -1,0 +1,116 @@
+[
+  {
+    "name": "Jean-Philippe Moffet",
+    "avatar": "/static/images/avatar-jpm.webp",
+    "occupation": "Anlyste Programmeur",
+    "company": "Desjardins",
+    "email": "jeanphilippemoffet@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/jean-philippe-moffet/",
+    "github": "https://github.com/boul35",
+    "body": {
+      "raw": "\n# Resume\n\n## Personal Information\n\n- **Name**: Jean-Philippe Moffet\n- **Location**: Quebec City, Canada  \n- **Profession**: Analyst Programmer at Desjardins Bank  \n- **Languages**: French, English  \n- **Hobbies**: Front-end development, Linux, fitness, personal development  \n\n## Professional Summary\n\nMotivated Analyst Programmer with experience in IT and web development. Skilled in front-end development and passionate about creating efficient, user-friendly applications. Always eager to learn and embrace new challenges in a fast-paced environment. Enthusiastic about contributing to collaborative projects and improving my technical expertise.\n\n## Skills\n\n- **Programming Languages**: JavaScript, Python, HTML, CSS\n- **Frameworks**: React, Vue.js\n- **Tools & Platforms**: Linux, XFCE/i3, Git, Obsidian\n- **Soft Skills**: Adaptability, problem-solving, attention to detail, teamwork\n\n## Education\n\n- **AEC in Web Development**  \n  - Learned foundational programming, front-end development, and responsive design techniques.\n- **DEP in [Your Field]**  \n  - Gained technical knowledge and practical skills in IT.\n\n## Work Experience\n\n### Analyst Programmer  \n**Desjardins Bank** | [Dates of Employment]  \n- Developed and maintained web-based applications to enhance customer experience.\n- Collaborated with cross-functional teams to meet project requirements.\n- Focused on continuous improvement and skill development to stay updated with industry trends.\n\n## Achievements\n\n- Transitioned from medical leave after burnout to successfully balancing a challenging job in IT.\n- Maintained a commitment to personal growth by going to the gym three times weekly, working towards fitness and well-being goals.\n- Developed a passion for Linux, integrating it into my workflow and exploring its productivity tools.\n\n## Personal Goals\n\n- **Health**: Lose weight, achieve an athletic physique, and adopt a healthier lifestyle.  \n- **Career**: Become a more proficient front-end developer and advance in the tech industry.  \n- **Social Life**: Meet new people and broaden my social circle in Quebec City.\n\n## Fun Facts\n\n- Enthusiastic about minimalist and productive setups, including a ThinkPad T440p running Linux.  \n- Enjoy journaling and documenting life milestones to reflect on progress and growth.  \n\n\n---\n\nFeel free to reach out via [LinkedIn profile link] or [email address].\n",
+      "code": "var Component=(()=>{var m=Object.create;var r=Object.defineProperty;var p=Object.getOwnPropertyDescriptor;var g=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,w=Object.prototype.hasOwnProperty;var f=(a,n)=>()=>(n||a((n={exports:{}}).exports,n),n.exports),v=(a,n)=>{for(var l in n)r(a,l,{get:n[l],enumerable:!0})},o=(a,n,l,t)=>{if(n&&typeof n==\"object\"||typeof n==\"function\")for(let i of g(n))!w.call(a,i)&&i!==l&&r(a,i,{get:()=>n[i],enumerable:!(t=p(n,i))||t.enumerable});return a};var x=(a,n,l)=>(l=a!=null?m(u(a)):{},o(n||!a||!a.__esModule?r(l,\"default\",{value:a,enumerable:!0}):l,a)),k=a=>o(r({},\"__esModule\",{value:!0}),a);var s=f((M,d)=>{d.exports=_jsx_runtime});var y={};v(y,{default:()=>h,frontmatter:()=>b});var e=x(s()),b={name:\"Jean-Philippe Moffet\",avatar:\"/static/images/avatar-jpm.webp\",occupation:\"Anlyste Programmeur\",company:\"Desjardins\",email:\"jeanphilippemoffet@gmail.com\",linkedin:\"https://www.linkedin.com/in/jean-philippe-moffet/\",github:\"https://github.com/boul35\"};function c(a){let n={a:\"a\",h1:\"h1\",h2:\"h2\",h3:\"h3\",hr:\"hr\",li:\"li\",p:\"p\",path:\"path\",span:\"span\",strong:\"strong\",svg:\"svg\",ul:\"ul\",...a.components};return(0,e.jsxs)(e.Fragment,{children:[(0,e.jsxs)(n.h1,{className:\"content-header\",id:\"resume\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#resume\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Resume\"]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"personal-information\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#personal-information\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Personal Information\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Name\"}),\": Jean-Philippe Moffet\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Location\"}),\": Quebec City, Canada\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Profession\"}),\": Analyst Programmer at Desjardins Bank\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Languages\"}),\": French, English\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Hobbies\"}),\": Front-end development, Linux, fitness, personal development\"]})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"professional-summary\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#professional-summary\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Professional Summary\"]}),(0,e.jsx)(n.p,{children:\"Motivated Analyst Programmer with experience in IT and web development. Skilled in front-end development and passionate about creating efficient, user-friendly applications. Always eager to learn and embrace new challenges in a fast-paced environment. Enthusiastic about contributing to collaborative projects and improving my technical expertise.\"}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"skills\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#skills\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Skills\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Programming Languages\"}),\": JavaScript, Python, HTML, CSS\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Frameworks\"}),\": React, Vue.js\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Tools & Platforms\"}),\": Linux, XFCE/i3, Git, Obsidian\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Soft Skills\"}),\": Adaptability, problem-solving, attention to detail, teamwork\"]})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"education\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#education\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Education\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"AEC in Web Development\"}),(0,e.jsx)(n.ul,{children:(0,e.jsx)(n.li,{children:\"Learned foundational programming, front-end development, and responsive design techniques.\"})})]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"DEP in [Your Field]\"}),(0,e.jsx)(n.ul,{children:(0,e.jsx)(n.li,{children:\"Gained technical knowledge and practical skills in IT.\"})})]})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"work-experience\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#work-experience\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Work Experience\"]}),(0,e.jsxs)(n.h3,{className:\"content-header\",id:\"analyst-programmer\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#analyst-programmer\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Analyst Programmer\"]}),(0,e.jsxs)(n.p,{children:[(0,e.jsx)(n.strong,{children:\"Desjardins Bank\"}),\" | [Dates of Employment]\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsx)(n.li,{children:\"Developed and maintained web-based applications to enhance customer experience.\"}),(0,e.jsx)(n.li,{children:\"Collaborated with cross-functional teams to meet project requirements.\"}),(0,e.jsx)(n.li,{children:\"Focused on continuous improvement and skill development to stay updated with industry trends.\"})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"achievements\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#achievements\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Achievements\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsx)(n.li,{children:\"Transitioned from medical leave after burnout to successfully balancing a challenging job in IT.\"}),(0,e.jsx)(n.li,{children:\"Maintained a commitment to personal growth by going to the gym three times weekly, working towards fitness and well-being goals.\"}),(0,e.jsx)(n.li,{children:\"Developed a passion for Linux, integrating it into my workflow and exploring its productivity tools.\"})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"personal-goals\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#personal-goals\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Personal Goals\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Health\"}),\": Lose weight, achieve an athletic physique, and adopt a healthier lifestyle.\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Career\"}),\": Become a more proficient front-end developer and advance in the tech industry.\"]}),(0,e.jsxs)(n.li,{children:[(0,e.jsx)(n.strong,{children:\"Social Life\"}),\": Meet new people and broaden my social circle in Quebec City.\"]})]}),(0,e.jsxs)(n.h2,{className:\"content-header\",id:\"fun-facts\",children:[(0,e.jsx)(n.a,{\"aria-hidden\":\"true\",href:\"#fun-facts\",tabIndex:\"-1\",children:(0,e.jsx)(e.Fragment,{children:(0,e.jsx)(n.span,{className:\"content-header-link\",children:(0,e.jsxs)(n.svg,{className:\"h-5 linkicon w-5\",fill:\"currentColor\",viewBox:\"0 0 20 20\",xmlns:\"http://www.w3.org/2000/svg\",children:[(0,e.jsx)(n.path,{d:\"M12.232 4.232a2.5 2.5 0 0 1 3.536 3.536l-1.225 1.224a.75.75 0 0 0 1.061 1.06l1.224-1.224a4 4 0 0 0-5.656-5.656l-3 3a4 4 0 0 0 .225 5.865.75.75 0 0 0 .977-1.138 2.5 2.5 0 0 1-.142-3.667l3-3Z\"}),(0,e.jsx)(n.path,{d:\"M11.603 7.963a.75.75 0 0 0-.977 1.138 2.5 2.5 0 0 1 .142 3.667l-3 3a2.5 2.5 0 0 1-3.536-3.536l1.225-1.224a.75.75 0 0 0-1.061-1.06l-1.224 1.224a4 4 0 1 0 5.656 5.656l3-3a4 4 0 0 0-.225-5.865Z\"})]})})})}),\"Fun Facts\"]}),(0,e.jsxs)(n.ul,{children:[(0,e.jsx)(n.li,{children:\"Enthusiastic about minimalist and productive setups, including a ThinkPad T440p running Linux.\"}),(0,e.jsx)(n.li,{children:\"Enjoy journaling and documenting life milestones to reflect on progress and growth.\"})]}),(0,e.jsx)(n.hr,{}),(0,e.jsx)(n.p,{children:\"Feel free to reach out via [LinkedIn profile link] or [email address].\"})]})}function h(a={}){let{wrapper:n}=a.components||{};return n?(0,e.jsx)(n,{...a,children:(0,e.jsx)(c,{...a})}):c(a)}return k(y);})();\n;return Component;"
+    },
+    "_id": "authors/default.mdx",
+    "_raw": {
+      "sourceFilePath": "authors/default.mdx",
+      "sourceFileName": "default.mdx",
+      "sourceFileDir": "authors",
+      "contentType": "mdx",
+      "flattenedPath": "authors/default"
+    },
+    "type": "Authors",
+    "readingTime": {
+      "text": "2 min read",
+      "minutes": 1.63,
+      "time": 97800,
+      "words": 326
+    },
+    "slug": "default",
+    "path": "authors/default",
+    "filePath": "authors/default.mdx",
+    "toc": [
+      {
+        "value": "Resume",
+        "url": "#resume",
+        "depth": 1
+      },
+      {
+        "value": "Personal Information",
+        "url": "#personal-information",
+        "depth": 2
+      },
+      {
+        "value": "Professional Summary",
+        "url": "#professional-summary",
+        "depth": 2
+      },
+      {
+        "value": "Skills",
+        "url": "#skills",
+        "depth": 2
+      },
+      {
+        "value": "Education",
+        "url": "#education",
+        "depth": 2
+      },
+      {
+        "value": "Work Experience",
+        "url": "#work-experience",
+        "depth": 2
+      },
+      {
+        "value": "Analyst Programmer",
+        "url": "#analyst-programmer",
+        "depth": 3
+      },
+      {
+        "value": "Achievements",
+        "url": "#achievements",
+        "depth": 2
+      },
+      {
+        "value": "Personal Goals",
+        "url": "#personal-goals",
+        "depth": 2
+      },
+      {
+        "value": "Fun Facts",
+        "url": "#fun-facts",
+        "depth": 2
+      }
+    ]
+  },
+  {
+    "name": "Sparrow Hawk",
+    "avatar": "/static/images/sparrowhawk-avatar.jpg",
+    "occupation": "Wizard of Earthsea",
+    "company": "Earthsea",
+    "twitter": "https://twitter.com/sparrowhawk",
+    "linkedin": "https://www.linkedin.com/sparrowhawk",
+    "body": {
+      "raw": "\nAt birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\n\nThe witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.\n",
+      "code": "var Component=(()=>{var m=Object.create;var o=Object.defineProperty;var l=Object.getOwnPropertyDescriptor;var p=Object.getOwnPropertyNames;var u=Object.getPrototypeOf,f=Object.prototype.hasOwnProperty;var g=(e,t)=>()=>(t||e((t={exports:{}}).exports,t),t.exports),k=(e,t)=>{for(var n in t)o(e,n,{get:t[n],enumerable:!0})},i=(e,t,n,s)=>{if(t&&typeof t==\"object\"||typeof t==\"function\")for(let r of p(t))!f.call(e,r)&&r!==n&&o(e,r,{get:()=>t[r],enumerable:!(s=l(t,r))||s.enumerable});return e};var x=(e,t,n)=>(n=e!=null?m(u(e)):{},i(t||!e||!e.__esModule?o(n,\"default\",{value:e,enumerable:!0}):n,e)),b=e=>i(o({},\"__esModule\",{value:!0}),e);var w=g((j,h)=>{h.exports=_jsx_runtime});var y={};k(y,{default:()=>d,frontmatter:()=>v});var a=x(w()),v={name:\"Sparrow Hawk\",avatar:\"/static/images/sparrowhawk-avatar.jpg\",occupation:\"Wizard of Earthsea\",company:\"Earthsea\",twitter:\"https://twitter.com/sparrowhawk\",linkedin:\"https://www.linkedin.com/sparrowhawk\"};function c(e){let t={p:\"p\",...e.components};return(0,a.jsxs)(a.Fragment,{children:[(0,a.jsx)(t.p,{children:\"At birth, Ged was given the child-name Duny by his mother. He was born on the island of Gont, as a son of a bronzesmith. His mother died before he reached the age of one. As a small boy, Ged had overheard the village witch, his maternal aunt, using various words of power to call goats. Ged later used the words without an understanding of their meanings, to surprising effect.\"}),(0,a.jsx)(t.p,{children:'The witch knew that using words of power effectively without understanding them required innate power, so she endeavored to teach him what little she knew. After learning more from her, he was able to call animals to him. Particularly, he was seen in the company of wild sparrowhawks so often that his \"use name\" became Sparrowhawk.'})]})}function d(e={}){let{wrapper:t}=e.components||{};return t?(0,a.jsx)(t,{...e,children:(0,a.jsx)(c,{...e})}):c(e)}return b(y);})();\n;return Component;"
+    },
+    "_id": "authors/sparrowhawk.mdx",
+    "_raw": {
+      "sourceFilePath": "authors/sparrowhawk.mdx",
+      "sourceFileName": "sparrowhawk.mdx",
+      "sourceFileDir": "authors",
+      "contentType": "mdx",
+      "flattenedPath": "authors/sparrowhawk"
+    },
+    "type": "Authors",
+    "readingTime": {
+      "text": "1 min read",
+      "minutes": 0.63,
+      "time": 37800,
+      "words": 126
+    },
+    "slug": "sparrowhawk",
+    "path": "authors/sparrowhawk",
+    "filePath": "authors/sparrowhawk.mdx",
+    "toc": []
+  }
+]
