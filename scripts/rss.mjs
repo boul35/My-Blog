@@ -1,10 +1,16 @@
 import { writeFileSync, mkdirSync } from 'fs'
 import path from 'path'
-import fs from 'fs';
-
+import { slug } from 'github-slugger'
+import { escape } from 'pliny/utils/htmlEscaper.js'
+import siteMetadata from '../data/siteMetadata.js'
+// import tagData from '../app/tag-data.json' with { type: 'json' }
+import { allBlogs } from '../.contentlayer/generated/index.mjs'
+import { sortPosts } from 'pliny/utils/contentlayer.js'
 
 // Example fix
-const tagData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../app/tag-data.json'), 'utf-8'));
+const tagData = JSON.parse(
+  fs.readFileSync(path.resolve(__dirname, '../app/tag-data.json'), 'utf-8')
+)
 
 import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'

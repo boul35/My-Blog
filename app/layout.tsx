@@ -2,7 +2,7 @@ import 'css/tailwind.css'
 import Script from 'next/script'
 import 'pliny/search/algolia.css'
 import 'remark-github-blockquote-alert/alert.css'
-
+import { Inter } from 'next/font/google'
 import { Space_Grotesk } from 'next/font/google'
 import { Analytics, AnalyticsConfig } from 'pliny/analytics'
 import { SearchProvider, SearchConfig } from 'pliny/search'
@@ -12,6 +12,7 @@ import Footer from '@/components/Footer'
 import siteMetadata from '@/data/siteMetadata'
 import { ThemeProviders } from './theme-providers'
 import { Metadata } from 'next'
+
 
 const space_grotesk = Space_Grotesk({
   subsets: ['latin'],
@@ -68,27 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${space_grotesk.variable} scroll-smooth`}
       suppressHydrationWarning
     >
-      <Head>
-        {/* Google Analytics Script */}
-        {siteMetadata.analytics?.googleAnalytics?.googleAnalyticsId && (
-          <>
-            <script
-              async
-              src={`https://www.googletagmanager.com/gtag/js?id=${siteMetadata.analytics.googleAnalytics.googleAnalyticsId}`}
-            />
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', '${siteMetadata.analytics.googleAnalytics.googleAnalyticsId}');
-                `,
-              }}
-            />
-          </>
-        )}
-      </Head>
+     
 
       <Script
         src="https://utteranc.es/client.js"
