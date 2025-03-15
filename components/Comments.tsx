@@ -1,22 +1,34 @@
-'use client'
+'use client'; // Important: Mark this as a client component
+import React, { useEffect, useRef } from 'react';
 
-import { Comments as CommentsComponent } from 'pliny/comments'
-import { useState } from 'react'
-import siteMetadata from '@/data/siteMetadata'
-
-export default function Comments({ slug }: { slug: string }) {
-  const [loadComments, setLoadComments] = useState(false)
-
-  if (!siteMetadata.comments?.provider) {
-    return null
-  }
-  return (
-    <>
-      {loadComments ? (
-        <CommentsComponent commentsConfig={siteMetadata.comments} slug={slug} />
-      ) : (
-        <button onClick={() => setLoadComments(true)}>Load Comments</button>
-      )}
-    </>
-  )
+// Define the type for the props
+interface CommentsProps {
+  slug: string;
 }
+
+const Comments: React.FC<CommentsProps> = ({ slug }) => {
+  const commentContainer = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (commentContainer.current) {
+      const script = document.createElement('script');
+      script.src = 'https://utteranc.es/client.js';
+      script.setAttribute('repo', 'boul35/my-blog');
+      script.setAttribute('issue-term', 'pathname');
+      script.setAttribute('theme', 'github-light');
+      script.setAttribute('crossorigin', 'anonymous');
+      script.setAttribute('async', 'true');
+
+      script.onload = () => {
+        console.log('Utterances script loaded');
+      };
+
+      commentContainer.current.innerHTML = ''; // Clear previous content
+      commentContainer.current.appendChild(script);
+    }
+  }, []);
+
+  return <div ref={commentContainer} />;
+};
+
+export default Comments;

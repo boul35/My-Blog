@@ -1,4 +1,5 @@
 import 'css/tailwind.css'
+import Script from 'next/script'
 import 'pliny/search/algolia.css'
 import 'remark-github-blockquote-alert/alert.css'
 import Head from 'next/head' // Import Head from next/head
@@ -88,6 +89,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </>
         )}
       </Head>
+
+      <Script
+        src="https://utteranc.es/client.js"
+        strategy="afterInteractive"
+        data-repo="boul35/my-blog"
+        data-issue-term="pathname"
+        data-theme="github-light"
+        crossOrigin="anonymous"
+        async
+      />
 
 
 
