@@ -1,20 +1,18 @@
-const { withContentlayer } = require('next-contentlayer2')
-
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true',
-})
+import { withContentlayer } from 'next-contentlayer2';
+import withBundleAnalyzer from '@next/bundle-analyzer';
 
 // You might need to insert additional domains in script-src if you are using external services
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self' 'unsafe-eval' 'unsafe-inline' https://utteranc.es http://giscus.app http://analytics.umami.is http://www.googletagmanager.com http://www.google-analytics.com;
-  style-src 'self' ;
-  img-src * blob: data:;
-  media-src *.s3.amazonaws.com;
-  connect-src *;
+  script-src 'self' 'unsafe-inline' https://utteranc.es https://www.googletagmanager.com https://www.google-analytics.com;
+  style-src 'self' 'unsafe-inline';
+  img-src 'self' * blob: data:;
+  media-src 'self' *.s3.amazonaws.com;
+  connect-src 'self' https://utteranc.es;
   font-src 'self';
-  frame-src giscus.app
-`
+  frame-src 'self' https://utteranc.es;
+`;
+
 
 const securityHeaders = [
   // https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP
@@ -52,17 +50,17 @@ const securityHeaders = [
     key: 'Permissions-Policy',
     value: 'camera=(), microphone=(), geolocation=()',
   },
-]
+];
 
-const output = process.env.EXPORT ? 'export' : undefined
-const basePath = process.env.BASE_PATH || undefined
-const unoptimized = process.env.UNOPTIMIZED ? true : undefined
+const output = process.env.EXPORT ? 'export' : undefined;
+const basePath = process.env.BASE_PATH || undefined;
+const unoptimized = process.env.UNOPTIMIZED ? true : undefined;
 
 /**
- * @type {import('next/dist/next-server/server/config').NextConfig}
+ * @type {import('next').NextConfig}
  **/
-module.exports = () => {
-  const plugins = [withContentlayer, withBundleAnalyzer]
+export default () => {
+  const plugins = [withContentlayer, withBundleAnalyzer({ enabled: process.env.ANALYZE === 'true' })];
   return plugins.reduce((acc, next) => next(acc), {
     output,
     basePath,
@@ -86,15 +84,15 @@ module.exports = () => {
           source: '/(.*)',
           headers: securityHeaders,
         },
-      ]
+      ];
     },
-    webpack: (config, options) => {
+    webpack(config, options) {
       config.module.rules.push({
         test: /\.svg$/,
         use: ['@svgr/webpack'],
-      })
+      });
 
-      return config
+      return config;
     },
-  })
-}
+  });
+};

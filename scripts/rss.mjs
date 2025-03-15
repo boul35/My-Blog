@@ -1,5 +1,11 @@
 import { writeFileSync, mkdirSync } from 'fs'
 import path from 'path'
+import fs from 'fs';
+
+
+// Example fix
+const tagData = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../app/tag-data.json'), 'utf-8'));
+
 import { slug } from 'github-slugger'
 import { escape } from 'pliny/utils/htmlEscaper.js'
 import siteMetadata from '../data/siteMetadata.js'

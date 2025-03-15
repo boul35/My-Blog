@@ -1,4 +1,5 @@
-{ "name": "My Blog",
+{
+  "name": "My Blog",
   "short_name": "Blog",
   "icons": [
     {

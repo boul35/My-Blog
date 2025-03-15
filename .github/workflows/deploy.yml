@@ -3,7 +3,7 @@ name: Deploy to Home Server
 on:
   push:
     branches:
-      - main  # Or the branch you want to deploy from
+      - main # Or the branch you want to deploy from
 
 jobs:
   deploy:
@@ -25,4 +25,3 @@ jobs:
             git pull origin main
             npm install
             npm run build
-            
